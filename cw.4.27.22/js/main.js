@@ -8,3 +8,6 @@ let num = 348597
 arr = String(num).split('').reverse().map(Number);
 console.log(arr)
 
+// String(num).split('') => converts the variable of integers into an array of strings
+// .reverse() => reverses the order of the strings 
+// .map(Number); => goes over the array and converts the string into numbers 
