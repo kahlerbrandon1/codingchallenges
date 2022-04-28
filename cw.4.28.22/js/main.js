@@ -8,3 +8,4 @@ function numberToString(num) {
    return num.toString();
     }
 
+// Basically takes the num parameter and turns whatever that is into a string
