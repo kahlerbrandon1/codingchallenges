@@ -12,6 +12,11 @@
 
 function countAndSum(arr){
 
+
+if (input == null || arr.length < 1){
+    return [];
+}
+
 let newArr = [0,0]
 
 for(i=0; i < arr.length; i++){
@@ -27,3 +32,4 @@ return newArr;
 }
 
 console.log(countAndSum([1, 6, 5, 6, 7, 9, -11, -33, -22]))
+
